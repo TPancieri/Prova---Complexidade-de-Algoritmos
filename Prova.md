@@ -135,39 +135,40 @@
   
 * Um algoritmo recursivo é definido por T(n) = T(n-1) + n. Qual é sua complexidade aproximada?
 
-``
+`A complexidade aproximada desse algoritmo seria de O(n²), pois seria a soma aritmetica de 1 a n`
   
 * Qual o impacto da escolha de pivô na complexidade média do Quick Sort?
 
-``
+`A escolha do pivô precisa ser bem decidida, pois uma escolha ruim pode gerar partições desbalanceadas, o que pode elebar  o Quick Sort de O(n log n) para O(n²)`
   
 * Explique o conceito de limite inferior (lower bound) para algoritmos de ordenação.
 
-``
+`O limite inferior é o menor tempo teórico possível para uma função ser executada, como por exemplo, O (n log n) é a melhor situação para algoritmos de ordenação por comparação`
   
 * Dê um exemplo de problema NP-difícil e explique o que isso significa em termos de complexidade.
 
-``
+`NP-difícil significa que não há algoritmo polinomial conhecido e que resolver o problema e tão difícil quanto os mais difícies da classe NP, um exemplo clássico disso seria o Problema do Caixeiro-Viajante`
   
 * Por que não é possível encontrar algoritmos polinomiais conhecidos para resolver todos os problemas NP-completos?
 
-``
+` Não é possível encontrar algoritmos polinomais conhecidos para resolver todos os problemas NP porque ningúem provou existir um algoritmo polinomial para esses problemas, essa é a base do Problema P vs NP`
   
 * Mostre um exemplo prático em que a análise de complexidade pode orientar o design de software.
 
-``
+` Um exemplo seria escolher árvores balanceadas (O(log n)) em vez de listas (O(n)) para buscas rápidas em um sistema de cadastro`
   
 * Explique a diferença entre complexidade no caso médio e complexidade no pior caso.
 
-``
+`O pior caso terá a execução mais demorada possível, enquanto o caso médio seria um comportamento típico`
   
 * Um algoritmo que compara todos os pares de elementos em uma lista de tamanho n possui qual complexidade?
 
-``
+`Um algoritmo que compara todos os pares de uma lista de tamanho n terá complexidade O(n²)`
   
 * Mostre por que f(n) = n! cresce mais rapidamente do que f(n) = 2ⁿ.
 
-``  
+`A função com n! ira crescer mais rapidamente porque multiplica por números cada vez maiores, enquanto 2ⁿ vai apenas dobrar a cada passo`  
 
-*
-* ``zSe um algoritmo tem tempo de execução T(n) = n² log n + 5n, qual é sua complexidade em notação O?
+*Se um algoritmo tem tempo de execução T(n) = n² log n + 5n, qual é sua complexidade em notação O?
+
+`A complexidade desse algoritmo em notação O seria de O(n² log n)`
