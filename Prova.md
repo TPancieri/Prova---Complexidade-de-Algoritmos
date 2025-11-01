@@ -1,7 +1,7 @@
 # Prova → Complexidade de Algoritmos
 
-
-
+ <br>
+ 
 ## Versão Fácil
 
 * O que significa a palavra complexidade quando falamos de um algoritmo? 
@@ -85,70 +85,89 @@
 
 ` Uma estrutura de dados que ajuda a melhorar a eficiência de um algoritmo são as tabelas hash, estruturas como ela, as heaps e as árvores balanceadas aumenta a eficiência de busca e da ordenação `
 
-
-
-
-
-
- 
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
 
 ## Versão Difícil
 
 * Explique por que analisamos a complexidade de tempo em função do tamanho da entrada (n).
 
+`A complexidade de empo é analisado conforme o tamanho de entrada pois esse afeta diretamneto o número de operações e o desempenho do algoritmo`
   
 * Dê um exemplo de algoritmo cuja complexidade muda dependendo da escolha da estrutura de dados.
 
+` Um algoritmo de busca de elementos pode ter complexidade O(1) quando utilizado uma tabela hash, mas uma complexidade O(n) quando utilizado com uma lista`
   
 * Mostre como se calcula a complexidade assintótica da função f(n) = 4n² + 3n + 10.
 
+` A complexidade seria considerada como O(n²), pois o termo com maior grau domina o crescimento da função, os termos menores podem ser desconsiderados `
   
 * Prove que O(n² + n) = O(n²).
 
+` Nessa função o termo n² cresce mais rapidamente do que o termo n, logo n é desprezável, então podemos considerar a complexidade como sendo apenas n²`
   
 * Qual é a diferença entre as notações O(n) e Ω(n) em termos de limites de crescimento?
 
+`A Notação de O(n) indica qual é o pior caso possível para a função (seu limite superior), já Ω(n) indica qual o melhor caso possível (seu limite inferior)`
   
 * Escreva a relação de recorrência do algoritmo Merge Sort e resolva-a usando o Teorema Mestre.
 
+`A relação de recorrência do algoritmo de Merge Sort pode ser escrita como T(n) = 2T(n/2) + n, resolvendo ela pelo Teorema Mestre chegamos no resultado O(n log n)`
   
 * Mostre um exemplo de algoritmo cuja complexidade é O(n log n) e explique por que esse comportamento ocorre.
 
+` Um algoritmo de O(n log n), como o Merge Sort, ocorre por que durante sua execução o problema e dividido em partes menores e os resultados são combinados`
   
 * Explique o que significa o custo amortizado em operações de uma tabela hash.
 
+`Em operações de uma tabela hash consideramos o custo amortizado como o custo médio por operação após diversas execuções, isso também é utilizado em outras estruturas dinâmicas como vetores redimensionáveis`
   
 * Dado um algoritmo com complexidade T(n) = 2T(n/2) + n, determine sua ordem de crescimento.
 
+`Esse algoritmo teria ordem de crescimento O(n log n), o mesmo nível de complexidade de um Merge Sort`
   
 * Compare o desempenho de algoritmos com complexidade O(n log n) e O(n²) para valores grandes de n.
 
+`O algoritmo com complexidade O(n log n) cresce muito mais lentamente do que o algoritmo com complexidade O(n²), logo o primeiro algoritmo tem uma melhor eficiencia e desempenho`
   
 * Um algoritmo recursivo é definido por T(n) = T(n-1) + n. Qual é sua complexidade aproximada?
 
+``
   
 * Qual o impacto da escolha de pivô na complexidade média do Quick Sort?
 
+``
   
 * Explique o conceito de limite inferior (lower bound) para algoritmos de ordenação.
 
+``
   
 * Dê um exemplo de problema NP-difícil e explique o que isso significa em termos de complexidade.
 
+``
   
 * Por que não é possível encontrar algoritmos polinomiais conhecidos para resolver todos os problemas NP-completos?
 
+``
   
 * Mostre um exemplo prático em que a análise de complexidade pode orientar o design de software.
 
+``
   
 * Explique a diferença entre complexidade no caso médio e complexidade no pior caso.
 
+``
   
 * Um algoritmo que compara todos os pares de elementos em uma lista de tamanho n possui qual complexidade?
 
+``
   
 * Mostre por que f(n) = n! cresce mais rapidamente do que f(n) = 2ⁿ.
 
-  
-* Se um algoritmo tem tempo de execução T(n) = n² log n + 5n, qual é sua complexidade em notação O?
+``  
+
+*
+* ``zSe um algoritmo tem tempo de execução T(n) = n² log n + 5n, qual é sua complexidade em notação O?
